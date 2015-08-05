@@ -1,0 +1,30 @@
+ul#list {
+  padding: 20px 0;
+}
+
+ul#list li{
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding: 10px;
+}
+
+ul#list li span {
+  display: block;
+}
+
+ul#list li span.name {
+  font: 15px HelveticaNeue;
+}
+
+ul#list li span.company {
+  font: 13px HelveticaNeue-Thin;
+  color: #333;
+}
+
+ul#list li a.delete {
+  float: right;
+}
+
+ul#list li a.call {
+  float: right;
+}
